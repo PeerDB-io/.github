@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended", ":enableVulnerabilityAlertsWithLabel('security')"],
+  "extends": ["config:best-practices", ":enableVulnerabilityAlertsWithLabel('security')"],
   "reviewersFromCodeOwners": true,
   "labels": ["dependencies"],
   "prConcurrentLimit": 4
